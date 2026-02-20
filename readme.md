@@ -1,30 +1,95 @@
-# LaraTime: Laravel 5.3 based system for freelancers to manage their work time
+# 🚀 TrackTime – Time Management System
 
-It is a demo project for demonstrating what can be generated with [QuickAdminPanel](https://quickadminpanel.com) tool.
-LaraTime is all generated with __QuickAdmin__ except for custom code for __Reports__ functionality.
+**TrackTime** is a modern Laravel-based time-tracking and lightweight project management system built for freelancers and small teams.
 
-![LaraTime screenshot](https://laraveldaily.com/wp-content/uploads/2018/11/laratime-demo.png)
+It allows users to track time entries against projects and work types, manage users and roles, and generate simple reports — all inside a clean and responsive Bootstrap 5 interface.
 
-## How to use
-
-- Clone the repository with __git clone__
-- Copy __.env.example__ file to __.env__
-- Edit credentials in your __.env__ file
-- Run __composer install__
-- Run __php artisan key:generate__
-- Run __php artisan migrate --seed__ (it has some seeded data for your testing)
-- That's it: launch the main URL and login with default credentials __admin@admin.com__ - __password__
-
-## License
-
-Basically, feel free to use and re-use any way you want.
+Designed as a developer-friendly demo application with admin pages and an attractive UI.
 
 ---
 
-## More from our LaravelDaily Team
+## 🎯 Purpose
 
-- Check out our adminpanel generator [QuickAdminPanel](https://quickadminpanel.com) 
-- Read our [Blog with Laravel Tutorials](https://laraveldaily.com)
-- FREE E-book: [50 Laravel Quick Tips (and counting)](https://laraveldaily.com/free-e-book-40-laravel-quick-tips-and-counting/)
-- Subscribe to our [YouTube channel Laravel Business](https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA)
-- Enroll in our [Laravel Online Courses](https://laraveldaily.teachable.com/)
+- Track time entries against projects and work types  
+- Manage users and roles  
+- Generate simple reports  
+- Provide a self-hosted lightweight time tracker  
+
+---
+
+## 👥 Primary Audience
+
+- Developers  
+- Freelancers  
+- Small teams  
+- Anyone looking for a simple self-hosted time tracking solution  
+
+---
+
+# ✨ Key Features
+
+## ⏱ Time Tracking
+- Create, edit, view, and delete time entries  
+- Log start/end time or duration  
+- Associate entries with projects and work types  
+
+## 📁 Projects
+- Create and manage projects  
+- Assign time entries to specific projects  
+
+## 🏷 Work Types
+- Create task categories/work types  
+- Use work types while logging time  
+
+## 👤 User Management
+- Full CRUD operations for users  
+- Role assignment system  
+- Role badges display  
+
+## 📋 Audit Log
+- Tracks user actions  
+- Records: model, action type, record ID  
+
+## 📊 Reports
+- Filter by date range  
+- View aggregated time summaries  
+
+## 🔐 Authentication
+- Laravel authentication scaffold  
+- Redesigned responsive Bootstrap 5 login page  
+
+## 🎨 Responsive UI
+- Bootstrap 5 layout  
+- Dark sidebar + top navigation bar  
+- Cards-based dashboard  
+- DataTables integration  
+- Flatpickr date picker  
+- Clean and modern design  
+
+## 🗑 Mass Actions
+- Bulk delete support  
+- Enhanced DataTables functionality  
+
+---
+
+# 🏗 Architecture & Tech Stack
+
+## Backend
+- **Framework:** Laravel 10.x  
+- **Language:** PHP 8.x  
+- **Database:** MySQL  
+
+## Frontend
+- Bootstrap 5  
+- Font Awesome 6  
+- Google Inter Font  
+- DataTables (Bootstrap theme)  
+- Flatpickr  
+
+## Tools & Packages
+- Composer-managed dependencies  
+- laravel/ui (authentication scaffolding)  
+- doctrine/dbal  
+- intervention/image  
+
+---
