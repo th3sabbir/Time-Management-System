@@ -84,12 +84,79 @@ Designed as a developer-friendly demo application with admin pages and an attrac
 - Font Awesome 6  
 - Google Inter Font  
 - DataTables (Bootstrap theme)  
-- Flatpickr  
+- Flatpickr
+
+---
+
+# 📂 Project Structure
+
+This project follows the standard Laravel directory structure:
+```
+app/
+├── Models/
+├── Http/Controllers/
+
+routes/
+└── web.php
+
+resources/
+├── views/
+│ ├── layouts/
+│ ├── partials/
+│ └── CRUD views
+
+public/
+└── Assets & entry point
+
+storage/
+bootstrap/
+database/
+```
 
 ## Tools & Packages
 - Composer-managed dependencies  
 - laravel/ui (authentication scaffolding)  
 - doctrine/dbal  
 - intervention/image  
+---
+
+# ⚙️ Installation
+
+Follow the steps below to set up the project locally:
+
+```bash
+git clone https://github.com/th3sabbir/Time-Management-System.git
+cd Time-Management-System
+
+composer install
+cp .env.example .env
+php artisan key:generate
+Configure Database
+```
+Open the .env file and update your database credentials:
+
+DB_DATABASE=tracktime
+DB_USERNAME=root
+DB_PASSWORD=
+
+Then run:
+
+php artisan migrate
+php artisan db:seed
+php artisan serve
+
+Visit the application at:
+
+http://127.0.0.1:8000
 
 ---
+
+# 🔑 Login Credentials
+
+To explore the system features, use the demo account below:
+
+| Role  | Email               | Password  |
+|-------|--------------------|-----------|
+| Admin | admin@sabbirahmed.net  | s1234567  |
+
+If you find this project helpful, feel free to ⭐ star the repository.
